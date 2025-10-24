@@ -1,5 +1,7 @@
 # Contact List - React Application
 
+`Author: Karthik - 22EC39017`
+
 A modern, responsive contact management application built with React, TypeScript, and Tailwind CSS. Features include contact viewing, searching, favorites, dark mode, and a clean, accessible interface.
 
 ## 🚀 Features
