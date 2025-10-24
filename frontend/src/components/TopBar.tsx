@@ -1,5 +1,5 @@
 import React from 'react';
-import { useThemeStore } from '../stores/theme';
+// import { useThemeStore } from '../stores/theme';
 
 interface TopBarProps {
   searchValue: string;
@@ -12,7 +12,7 @@ export const TopBar: React.FC<TopBarProps> = ({
   onSearchChange,
   onAddContact,
 }) => {
-  const { isDark, toggleTheme } = useThemeStore();
+  // const { isDark, toggleTheme } = useThemeStore();
 
   return (
     <header className="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700">
