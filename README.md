@@ -8,7 +8,6 @@ A modern, responsive contact management application built with React, TypeScript
 - **View Contacts**: Browse through your contact list with avatar, name, job title, company, email, and phone
 - **Search**: Real-time search with debouncing (300ms) across names, emails, and companies
 - **Favorites**: Mark contacts as favorites with visual star indicators
-- **Dark Mode**: Toggle between light and dark themes with persistent preference
 - **Responsive Design**: Works seamlessly on mobile, tablet, and desktop
 - **Accessibility**: Full keyboard navigation, ARIA roles, and screen reader support
 
@@ -176,47 +175,5 @@ if (import.meta.env.DEV && import.meta.env.VITE_ENABLE_MSW !== 'false') {
 }
 ```
 
-## 📱 Browser Support
-
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🎯 Future Enhancements
-
-- [ ] Contact form for adding/editing contacts
-- [ ] Bulk operations (select multiple, delete, export)
-- [ ] Contact import/export (CSV, vCard)
-- [ ] Advanced filtering (by tags, date ranges)
-- [ ] Contact groups and categories
-- [ ] Photo upload for avatars
-- [ ] Offline support with service workers
-- [ ] Real-time collaboration
-- [ ] Contact sharing and permissions
-
-## 🐛 Known Issues
-
-- Contact editing functionality is placeholder (shows console log)
-- Add contact functionality is placeholder (shows console log)
-- No pagination for large contact lists (currently limited to 50)
-
-## 📞 Support
-
-For questions or issues, please open an issue on GitHub or contact the development team.
-
----
-
-Built with ❤️ using React, TypeScript, and Tailwind CSS
+### Backend Setup
+Refer to the [Backend Readme](./backend/README.md)
