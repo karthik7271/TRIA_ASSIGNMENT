@@ -76,7 +76,7 @@ export const TopBar: React.FC<TopBarProps> = ({
             </button>
 
             {/* Theme Toggle */}
-            <button
+            {/* <button
               onClick={toggleTheme}
               className="p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
               aria-label="Toggle theme"
@@ -94,7 +94,7 @@ export const TopBar: React.FC<TopBarProps> = ({
                   <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
                 </svg>
               )}
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
